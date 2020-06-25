@@ -1,0 +1,7 @@
+DesiredCapabilities ds=new DesiredCapabilities();
+		ds.setPlatform(Platform.WIN10);
+		ds.setBrowserName("chrome");
+		WebDriver dr=new RemoteWebDriver(new URL(""),ds);
+		dr.get("");
+		
+
